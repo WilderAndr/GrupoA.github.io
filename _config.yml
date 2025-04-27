@@ -1,30 +1,25 @@
 title: "GrupoA.github.io"
 description: "Proyecto de TDD"
-url: "https://WilderAndr.github.io" # URL de tu sitio en GitHub Pages
-baseurl: "/PA3TDD" # Subdirectorio de tu proyecto en GitHub Pages
+url: "https://WilderAndr.github.io"
+baseurl: "/PA3TDD"
 
-# Otras configuraciones
 markdown: kramdown
 theme: jekyll-theme-cayman
 
-# Configuración para GitHub Pages
 repository: "WilderAndr/GrupoA.github.io"
 
-# Otras configuraciones de Jekyll si es necesario
 plugins:
-  - jekyll-feed # Para RSS si deseas habilitarlo
-  - jekyll-seo-tag # Para SEO básico
+  - jekyll-feed
+  - jekyll-seo-tag
 
 highlighter: rouge
 permalink: pretty
 
-# ===== CONFIGURACIÓN ASSETS (CRÍTICA) =====
 assets:
   sources:
     - assets
-  cache: false # Desactivar en desarrollo
+  cache: false
 
-# ===== INCLUSIONES/EXCLUSIONES (ESENCIAL) =====
 include:
   - assets/js
   - assets/js/tests
@@ -39,16 +34,14 @@ exclude:
   - .gitignore
   - .vscode
   - .github
-  - .github/workflows/*.sample
 
-# ===== ENTORNOS =====
 development: &development
   url: http://localhost:4000
   assets:
     debug: true
 
 production: &production
-  url: https://tudominio.com
+  url: https://WilderAndr.github.io
   assets:
     debug: false
 
@@ -56,23 +49,19 @@ environments:
   development: *development
   production: *production
 
-# ===== CONFIGURACIÓN PARA JASMINE =====
 test_env: &test_env
   url: ""
   baseurl: ""
 
-# ===== CONFIGURACIÓN PERSONALIZADA =====
 custom:
   orm:
     debug: true
     base_url: ""
 
-# ===== GITHUB PAGES =====
 github:
   repository: WilderAndr/GrupoA.github.io
   branch: main
 
-# ===== SEO =====
 seo:
   title: true
   description: true
