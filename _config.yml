@@ -8,7 +8,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 
 # Configuración para GitHub Pages
-repository: "eynersalvador/PA3TDD" # Nombre del repositorio en GitHub
+repository: "WilderAndr/GrupoA.github.io
 
 # Otras configuraciones de Jekyll si es necesario
 plugins:
