@@ -1,33 +1,39 @@
 ---
 layout: default
-title: Portafolio
+title: Home
 ---
 
-<div class="home">
-  <h1>Mi Portafolio</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="Wilder">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido al Proyecto de TDD</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ site.baseurl }}/">Inicio</a></li>
+        <li><a href="{{ site.baseurl }}/acerca-de">Acerca de</a></li>
+        <li><a href="{{ site.baseurl }}/contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Sección de estado del ORM -->
-  <div id="orm-status" class="status-loading">
-    <span class="spinner"></span> Verificando conexión con datos...
-  </div>
+  <section>
+    <h2>Bienvenidos al Proyecto TDD de Grupo A</h2>
+    <p>Este proyecto utiliza la metodología TDD para el desarrollo de software.</p>
+  </section>
 
-  <h2>Proyectos</h2>
-  <div id="projects-container">
-    <div class="loading-placeholder">
-      <p>Cargando proyectos...</p>
-    </div>
-  </div>
+  <footer>
+    <p>&copy; 2025 Wilder & Grupo A</p>
+  </footer>
 
-  <h2>Habilidades</h2>
-  <div id="skills-container">
-    <div class="loading-placeholder">
-      <p>Cargando habilidades...</p>
-    </div>
-  </div>
-</div>
-
-<!-- Carga de JavaScript -->
-<script>
-  // Verificación de ruta antes de cargar
-  console.log('Ruta del script:', "{{ '/assets/js/main.js' | relative_url }}");
-</script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+</html>
