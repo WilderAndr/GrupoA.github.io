@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portafolio Profesional",
+      "description": "Sitio web que muestra mis proyectos y habilidades técnicas",
+      "technologies": ["HTML", "CSS", "JavaScript", "Jekyll"],
+      "url": "https://ejemplo.com/portafolio"
+    },
+    {
+      "id": 2,
+      "title": "Sistema de Gestión",
+      "description": "Aplicación web para administración de recursos",
+      "technologies": ["JavaScript", "React", "Node.js"],
+      "url": "https://ejemplo.com/sistema-gestion"
+    },
+    {
+      "id": 3,
+      "title": "Blog Técnico",
+      "description": "Blog personal sobre desarrollo web y tecnología",
+      "technologies": ["Jekyll", "Markdown", "GitHub Pages"],
+      "url": "https://ejemplo.com/blog"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "category": "Lenguajes"
+    },
+    {
+      "id": 2,
+      "name": "HTML5",
+      "level": "Experto",
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
+      "name": "CSS3",
+      "level": "Avanzado",
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "level": "Intermedio",
+      "category": "Frameworks"
+    },
+    {
+      "id": 5,
+      "name": "Node.js",
+      "level": "Intermedio",
+      "category": "Backend"
+    },
+    {
+      "id": 6,
+      "name": "Jekyll",
+      "level": "Avanzado",
+      "category": "Static Sites"
+    }
+  ]
+}
