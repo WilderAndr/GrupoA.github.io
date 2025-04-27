@@ -8,18 +8,13 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 
 # Configuración para GitHub Pages
-repository: "WilderAndr/GrupoA.github.io
+repository: "WilderAndr/GrupoA.github.io"
 
 # Otras configuraciones de Jekyll si es necesario
 plugins:
   - jekyll-feed # Para RSS si deseas habilitarlo
   - jekyll-seo-tag # Para SEO básico
 
-# Opcionalmente, puedes agregar configuraciones adicionales
-# como permalinks, author, etc.
-
-
-markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
@@ -32,10 +27,9 @@ assets:
 # ===== INCLUSIONES/EXCLUSIONES (ESENCIAL) =====
 include:
   - assets/js
-  - assets/js/tests  # Nombre exacto de tu carpeta
+  - assets/js/tests
   - assets/css
-  - _data/db.json    # Solo si tus pruebas lo necesitan
-
+  - _data/db.json
 
 exclude:
   - Gemfile
@@ -75,7 +69,7 @@ custom:
 
 # ===== GITHUB PAGES =====
 github:
-  repository: username/repo-name
+  repository: WilderAndr/GrupoA.github.io
   branch: main
 
 # ===== SEO =====
